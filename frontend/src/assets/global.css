@@ -1,0 +1,220 @@
+#loginForm, #changePinForm{
+  width: 300px;
+  margin: 15% auto;
+  font-size: 1.2em;
+  }
+
+#registerForm{
+  width: 300px;
+  margin: 5% auto;
+  font-size: 1.2em;
+}
+#notFound{
+    text-align: center;
+    width: 90%;
+    margin: 20% auto;
+    font-size: 1.2em;;
+  }
+#profile tr{
+  border: none;
+}
+#profile td{
+  padding-top: 4%;
+}
+#profile table{
+  margin: 1% auto;
+  width: 35%;
+}
+#positions, #profile, #requests, #workingTimes, #employees, #mngrequests, #mngshifts {
+    width: 90%;
+    margin: 2% auto;
+    font-size: 1.2em;
+  }
+
+tr {
+    border: 1px solid black;
+  }
+  
+  .edit {
+    width: 400px;
+    margin: 5% auto;
+  }
+  .edit h2 {
+    text-align: center;
+  }
+  
+  .actionBar{
+    width: 10%;
+  }
+
+@media (max-width: 700px) {
+    .edit, #registerForm {
+      width: 90%;
+    }
+
+    .mngbtn{
+      margin: 1%;
+    }
+
+
+    
+
+    #loginForm, #changePinForm, #profile {
+      width: 90%;
+      margin: 15% auto;
+      font-size: 1.2em;
+      }
+
+      #registerForm{
+        width: 90%;
+        margin: 5% auto;
+        font-size: 1.2em;
+      }
+  }
+
+/*Responsive table*/
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 991px) {
+    .resp-table table,
+    .resp-table thead,
+    .resp-table tbody,
+    .resp-table th,
+    .resp-table td,
+    .resp-table tr {
+    display: block;
+  }
+
+  
+  .actionBar{
+    width: auto;
+  }
+
+  .resp-table thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .resp-table tr {
+    border: 1px solid black;
+    margin: 4px;
+    border-radius: 2%
+  }
+
+  .resp-table td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 2%;  }
+
+  .resp-table td:before {
+    top: 3px;
+    left: 3px;
+    width: 35%;
+    padding-right: 5px;
+    white-space: nowrap;
+  }
+  #employees td:nth-of-type(1):before {
+    content: "First Name:";
+  }
+  #employees td:nth-of-type(2):before {
+    content: "Last Name:";
+  }
+  #employees td:nth-of-type(3):before {
+    content: "Email:";
+  }
+  #employees td:nth-of-type(4):before {
+    content: "Role:";
+  }
+  #employees td:nth-of-type(5):before {
+    content: "Position:";
+  }
+  #employees td:nth-of-type(6):before {
+    content: "Working time:";
+  }
+  #employees td:nth-of-type(7):before {
+    content: "Action:";
+  }
+  #positions td:nth-of-type(1):before {
+    content: "Name:";
+  }
+  #positions td:nth-of-type(2):before {
+    content: "Description:";
+  }
+  #positions td:nth-of-type(3):before {
+    content: "Default salary:";
+  }
+  #positions td:nth-of-type(4):before {
+    content: "Employees:";
+  }
+  #positions td:nth-of-type(5):before {
+    content: "Action:";
+  }
+
+  #workingTimes td:nth-of-type(1):before {
+    content: "Name:";
+  }
+  #workingTimes td:nth-of-type(2):before {
+    content: "Hours:";
+  }
+  #workingTimes td:nth-of-type(3):before {
+    content: "Holiday hours:";
+  }
+  #workingTimes td:nth-of-type(4):before {
+    content: "Employees:";
+  }
+  #workingTimes td:nth-of-type(5):before {
+    content: "Action:";
+  }
+
+  #requests td:nth-of-type(1):before {
+    content: "Date (YYYY-MM-DD):";
+  }
+  #requests td:nth-of-type(2):before {
+    content: "Start shift (HH:mm):";
+  }
+  #requests td:nth-of-type(3):before {
+    content: "End shift (HH:mm):";
+  }
+  #requests td:nth-of-type(4):before {
+    content: "Action:";
+  }
+
+  #mngrequests td:nth-of-type(1):before {
+    content: "Full Name:";
+  }
+  #mngrequests td:nth-of-type(2):before {
+    content: "Position:";
+  }
+  #mngrequests td:nth-of-type(3):before {
+    content: "Date (YYYY-MM-DD):";
+  }
+  #mngrequests td:nth-of-type(4):before {
+    content: "Start shift (HH:mm):";
+  }
+  #mngrequests td:nth-of-type(5):before {
+    content: "End shift (HH:mm):";
+  }
+  #mngrequests td:nth-of-type(6):before {
+    content: "Action:";
+  }
+
+  #mngshifts td:nth-of-type(1):before {
+    content: "Full Name:";
+  }
+  #mngshifts td:nth-of-type(2):before {
+    content: "Position:";
+  }
+  #mngshifts td:nth-of-type(3):before {
+    content: "Date (YYYY-MM-DD):";
+  }
+  #mngshifts td:nth-of-type(4):before {
+    content: "Start shift (HH:mm):";
+  }
+  #mngshifts td:nth-of-type(5):before {
+    content: "End shift (HH:mm):";
+  }
+  #mngshifts td:nth-of-type(6):before {
+    content: "Action:";
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "shift_manager",
+  "version": "1.0.0",
+  "description": "Shift Manager",
+  "main": "backend/app.js",
+  "scripts": {
+    "start": "cd backend && npm install && node app.js",
+    "dev": "cd backend && npm run dev",
+    "build-frontend": "cd frontend && npm run build",
+    "init": "cd backend && npm install && cd ../frontend && npm install"
+  }
+}
