@@ -4,11 +4,11 @@ Aplikace je dostupná na serveru https://shiftmanagertnpw.herokuapp.com/ - (Jeli
 Přístup do aplikace: (Do aplikace je povolen přístup ve třech rolích, uživatele, manažera a administrátora)
 Bylo tak vytvořeno několik účtů, pracovních pozic a úvazků k potřebě testování aplikace. (Při nasazení do podniku by byl každý účet vázán na uživatelovu emailovou adresu.)
 
-Administrátor - email: admin@shiftmanagerbp.com | heslo: 0000 
-Manažer - email: manager@shiftmanagerbp.com | heslo: 0000
-Uživatel 01 - email: user01@shiftmanagerbp.com | heslo: 0000 
-Uživatel 02 - email: user02@shiftmanagerbp.com | heslo: 0000 
-Uživatel 03 - email: user03@shiftmanagerbp.com | heslo: 0000 
+Administrátor - email: admin@shiftmanagertnpw.com | heslo: 0000 
+Manažer - email: manager@shiftmanagertnpw.com | heslo: 0000
+Uživatel 01 - email: user01@shiftmanagertnpw.com | heslo: 0000 
+Uživatel 02 - email: user02@shiftmanagertnpw.com | heslo: 0000 
+Uživatel 03 - email: user03@shiftmanagertnpw.com | heslo: 0000 
 
 Při registraci nového uživatele je jeho heslo automaticky generováno a posíláno na email, proto je třeba zadat správnou emailovou adresu.
 
@@ -20,7 +20,7 @@ Je třeba mít nainstalovanou MongoDB v lokáním prostředí (https://www.mongo
 Dále je třeba nainstalovat všechny závislosti aplikace pomocí příkazu: npm run init (Příkaz spouštět v kořenovém adresáři aplikace).
 Poté spustit pomocí příkazu: npm run dev
 
-Při prvním spuštěním na vývojovém prostředí je vytvořen účet administrátora (email: admin@shiftmanagerbp.com | heslo: 0000), který musí aplikaci nastavit ke správnému fungování.
+Při prvním spuštěním na vývojovém prostředí je vytvořen účet administrátora (email: admin@shiftmanagertnpw.com.com | heslo: 0000), který musí aplikaci nastavit ke správnému fungování.
 Administrátor musí nastavit pracovní pozice a úvazky a registrovat uživatele.
 
 Následně je možné aplikaci plně využívat na adrese http://localhost:8080
