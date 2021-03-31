@@ -9,7 +9,7 @@ const JobPosition = require('../../model/JobPosition');
 const WorkingTime = require('../../model/WorkingTime');
 require('dotenv').config();
 const sgMail = require("@sendgrid/mail");
-sgMail.setApiKey('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');
+sgMail.setApiKey('');
 var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 /**
  * @route POST api/users/register
